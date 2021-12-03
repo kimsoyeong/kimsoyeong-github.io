@@ -49,7 +49,7 @@ body {
 
   .page__inner-wrap {
     float: left;
-    margin-top: 1em;
+    margin-top: 1.2em;
     margin-left: 0;
     margin-right: 0;
     width: 100%;
@@ -64,6 +64,10 @@ body {
       margin-right: 0;
       width: 100%;
       clear: both;
+    }
+
+    .page__meta {
+      margin-bottom: 2em;
     }
   }
 }
