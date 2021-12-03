@@ -3,7 +3,6 @@ title: "깃헙 블로그 개설!!"
 categories:
     - Github_Blog
 tags:
-    - Jekyll
     - Blog
 ---
 
