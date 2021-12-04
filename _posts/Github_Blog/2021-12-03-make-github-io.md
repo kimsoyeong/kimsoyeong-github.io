@@ -10,10 +10,10 @@ tags:
 ## 환경 설정
 ### 1. Ruby
 jekyll을 사용하기 위해서는 ruby가 필요하다.
-[rubyinstaller](https://rubyinstaller.org/downloads/)에서 WITH DEVKIT 중 (x86)으로 다운받아 설치해준다.
+[<U>rubyinstaller</U>](https://rubyinstaller.org/downloads/)에서 WITH DEVKIT 중 (x86)으로 다운받아 설치해준다.
 > **jekyll**이 32bit이므로 **(x86)**을 설치해줘야 한다.
 
-![rubyinstaller](https://images.velog.io/images/kimsoyeong/post/5cf03a76-8907-4fff-a2da-0eae7efd0d96/image.png)
+![rubyinstaller](https://user-images.githubusercontent.com/43427380/144706017-ebb7043b-21ae-4e3f-9e1c-5ae051de4cd1.png)
 
 나는 Ruby+Devkit 2.7.5-1 (x86) 버전으로 모든 설정 default로 설치했다.
 설치가 끝나면, ridk install 선택해제 후 완료한다.
@@ -21,7 +21,7 @@ jekyll을 사용하기 위해서는 ruby가 필요하다.
 ### 2. jekyll
 시작에서 Start Command Prompt with Ruby을 실행한다.
 
-![Start Command Prompt with Ruby](https://images.velog.io/images/kimsoyeong/post/6d6345c8-3300-4ac5-8a50-19596d41452f/image.png)
+![Start Command Prompt with Ruby](https://user-images.githubusercontent.com/43427380/144706019-2dcb592c-01c8-4f8e-aaae-d0406814cb55.png)
 
 cmd에 아래 명령어를 실행한다.
 
@@ -33,7 +33,7 @@ gem install jekyll
 
 
 ## minimal-mistakes 테마 적용
-- [minimal-mistakes github](https://github.com/mmistakes/minimal-mistakes)
+- [<U>minimal-mistakes github</U>](https://github.com/mmistakes/minimal-mistakes)
 
 minimal-mistakes 리포지토리를 clone해준다.
 .github, test, .editorconfig, .gitattributes, .travis.yml, CHANGELOG.md, README.md, screenshot.png, screenshot-layouts.png는 필요없으므로 삭제한다.
@@ -64,10 +64,10 @@ bundle update
 ## Github.io Repo 생성
 repository name을 `github_id`.github.io로하여 repostiory를 만든다.
 
-![github.io repository](https://images.velog.io/images/kimsoyeong/post/c63295f1-fefa-436b-8556-66588099c159/image.png)
+![github.io repository](https://user-images.githubusercontent.com/43427380/144706022-6695bb0f-7e11-4b8b-bbd6-bf50768da363.png)
 
 minimal-mistakes 테마 적용에서 만들어둔 모든 파일을 해당 repo에 push한다.
 
-![gihub.io](https://images.velog.io/images/kimsoyeong/post/de1ecd45-e918-4d1d-a5f7-d12e47cd9c35/image.png)
+![gihub.io](https://user-images.githubusercontent.com/43427380/144706024-f47735e2-1fad-47f7-9cdd-5c04c0725437.png)
 
 `github_id.github.io` 에서 블로그를 확인할 수 있다.
