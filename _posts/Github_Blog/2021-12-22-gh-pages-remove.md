@@ -1,7 +1,7 @@
 ---
 title: "Gihub Pages 비활성화"
 categories:
-    - Github
+    - Github_Blog
 tags:
     - gh-pages
     - github
